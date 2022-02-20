@@ -56,13 +56,6 @@ const LocationSelector = ({ onLocation, onMapLocation }) => {
 
     return (
         <View style={styles.container}>
-            {/* <View style={styles.preview}>
-                {pickedLocation ? 
-                    <Text>{pickedLocation.latitude}, {pickedLocation.longitude}</Text> :
-                    <Text>No hay una ubicación seleccionada</Text>
-                    
-                }
-            </View> */}
             <MapPreview
                 location={pickedLocation}
                 style={styles.preview}
