@@ -22,6 +22,7 @@ const MapScreen = ({ navigation }) => {
                     longitudeDelta: 0.0421,
                 }
                 setInitialRegion(location);
+                setSelectedLocation(location);
             },
             error => {
                 console.warn(error);
